@@ -1,3 +1,4 @@
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -97,5 +98,27 @@
 
   body {
     @apply bg-background text-foreground;
+    font-feature-settings: "rlig" 1, "calt" 1;
+  }
+  
+  /* Custom styles */
+  .btn-primary {
+    @apply bg-pdx-yellow hover:bg-pdx-darkyellow text-pdx-darkgray font-semibold py-3 px-6 rounded-md shadow-md transition-all duration-200 inline-flex items-center justify-center;
+  }
+  
+  .btn-secondary {
+    @apply bg-pdx-blue hover:bg-pdx-darkblue text-white font-semibold py-3 px-6 rounded-md shadow-md transition-all duration-200 inline-flex items-center justify-center;
+  }
+  
+  .section-padding {
+    @apply py-16 md:py-24;
+  }
+  
+  .service-card {
+    @apply bg-white rounded-xl shadow-lg p-6 transition-all duration-300 hover:shadow-xl hover:-translate-y-1;
+  }
+  
+  .service-card-icon {
+    @apply flex items-center justify-center w-16 h-16 mb-4 rounded-full bg-pdx-blue text-white;
   }
 }
