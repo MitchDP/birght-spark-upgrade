@@ -10,7 +10,7 @@ const Footer = () => {
           <div>
             <Link to="/" className="inline-block mb-6">
               <img 
-                src="/lovable-uploads/663ddf71-f66e-4772-910f-8e717dc71bc8.png" 
+                src="/lovable-uploads/7a6e3696-30c7-4dbc-ba32-19e9fbef51b0.png" 
                 alt="PDX Electric Logo" 
                 className="h-14" 
               />

@@ -7,8 +7,8 @@ const Hero = () => {
       <div className="absolute inset-0 overflow-hidden">
         <div className="absolute inset-0 bg-pdx-blue opacity-60"></div>
         <img 
-          src="/lovable-uploads/9e36d103-b641-45ea-9846-af67c4e48673.png" 
-          alt="Portland City Skyline" 
+          src="/lovable-uploads/32fd35ab-4c13-4fb2-a693-faa368f76fd7.png" 
+          alt="Portland Electrical Services" 
           className="w-full h-full object-cover"
         />
       </div>
