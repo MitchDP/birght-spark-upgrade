@@ -1,6 +1,6 @@
 
 import { Link } from "react-router-dom";
-import { Home, Plug, Wrench, LightBulb, MapPin, CarFront } from "lucide-react";
+import { Home, Plug, Wrench, Lightbulb, MapPin, CarFront } from "lucide-react";
 
 const services = [
   {
@@ -23,7 +23,7 @@ const services = [
   },
   {
     title: "Lighting Solutions",
-    icon: <LightBulb size={32} />,
+    icon: <Lightbulb size={32} />,
     description: "Modern lighting installation for kitchens, bathrooms, and entire home renovations.",
     link: "/services#lighting"
   },

@@ -1,7 +1,7 @@
 
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
-import { Home, Wrench, LightBulb, CarFront, Plug, MapPin } from "lucide-react";
+import { Home, Wrench, Lightbulb, CarFront, Plug, MapPin } from "lucide-react";
 import { Link } from "react-router-dom";
 import { useEffect } from "react";
 
