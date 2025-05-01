@@ -1,4 +1,3 @@
-
 import { Link } from "react-router-dom";
 import { Phone, Mail, MapPin } from "lucide-react";
 
@@ -10,9 +9,9 @@ const Footer = () => {
           <div>
             <Link to="/" className="inline-block mb-6">
               <img 
-                src="/lovable-uploads/7a6e3696-30c7-4dbc-ba32-19e9fbef51b0.png" 
+                src="/lovable-uploads/d4d3d85d-fd65-4fe9-8bc4-67ecf08d1410.png" 
                 alt="PDX Electric Logo" 
-                className="h-14" 
+                className="h-16" 
               />
             </Link>
             <p className="mb-6">

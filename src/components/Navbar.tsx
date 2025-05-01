@@ -27,18 +27,26 @@ const Navbar = () => {
         <div className="flex justify-between items-center">
           <Link to="/" className="flex items-center">
             <img 
-              src="/lovable-uploads/7a6e3696-30c7-4dbc-ba32-19e9fbef51b0.png" 
+              src="/lovable-uploads/d4d3d85d-fd65-4fe9-8bc4-67ecf08d1410.png" 
               alt="PDX Electric Logo" 
-              className="h-14" 
+              className="h-16" 
             />
           </Link>
 
           {/* Desktop Navigation */}
           <div className="hidden md:flex items-center space-x-8">
-            <Link to="/" className="font-medium hover:text-pdx-blue transition-colors">Home</Link>
-            <Link to="/services" className="font-medium hover:text-pdx-blue transition-colors">Services</Link>
-            <Link to="/contact" className="font-medium hover:text-pdx-blue transition-colors">Contact</Link>
-            <a href="tel:503-639-9708" className="font-bold text-pdx-blue hover:text-pdx-darkblue transition-colors">503-639-9708</a>
+            <Link to="/" className={`font-medium transition-colors ${isScrolled ? 'text-gray-800 hover:text-pdx-blue' : 'text-white hover:text-pdx-yellow'}`}>
+              Home
+            </Link>
+            <Link to="/services" className={`font-medium transition-colors ${isScrolled ? 'text-gray-800 hover:text-pdx-blue' : 'text-white hover:text-pdx-yellow'}`}>
+              Services
+            </Link>
+            <Link to="/contact" className={`font-medium transition-colors ${isScrolled ? 'text-gray-800 hover:text-pdx-blue' : 'text-white hover:text-pdx-yellow'}`}>
+              Contact
+            </Link>
+            <a href="tel:503-639-9708" className={`font-bold transition-colors ${isScrolled ? 'text-pdx-blue hover:text-pdx-darkblue' : 'text-white hover:text-pdx-yellow'}`}>
+              503-639-9708
+            </a>
             <Link to="/contact" className="btn-primary">
               Get a Free Quote
             </Link>
@@ -46,7 +54,7 @@ const Navbar = () => {
 
           {/* Mobile Navigation Toggle */}
           <button 
-            className="md:hidden text-gray-700"
+            className={`md:hidden ${isScrolled ? 'text-gray-700' : 'text-white'}`}
             onClick={() => setIsMenuOpen(!isMenuOpen)}
           >
             {isMenuOpen ? (

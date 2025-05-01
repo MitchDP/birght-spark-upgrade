@@ -1,4 +1,3 @@
-
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import { Home, Wrench, Lightbulb, CarFront, Plug, MapPin } from "lucide-react";
@@ -272,7 +271,7 @@ const Services = () => {
             <div id="lighting" className="rounded-xl bg-white shadow-lg overflow-hidden">
               <div className="p-6">
                 <div className="w-14 h-14 bg-pdx-blue text-white rounded-full flex items-center justify-center mb-4">
-                  <LightBulb size={28} />
+                  <Lightbulb size={28} />
                 </div>
                 <h3 className="text-xl font-bold mb-3">Lighting Solutions</h3>
                 <p className="text-gray-600 mb-4">
