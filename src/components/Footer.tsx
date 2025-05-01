@@ -1,3 +1,4 @@
+
 import { Link } from "react-router-dom";
 import { Phone, Mail, MapPin } from "lucide-react";
 
@@ -11,7 +12,8 @@ const Footer = () => {
               <img 
                 src="/lovable-uploads/d4d3d85d-fd65-4fe9-8bc4-67ecf08d1410.png" 
                 alt="PDX Electric Logo" 
-                className="h-16" 
+                className="h-16"
+                style={{ backgroundColor: 'transparent' }} 
               />
             </Link>
             <p className="mb-6">
